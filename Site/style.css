@@ -1,0 +1,143 @@
+#Header {
+    background-color: #4ba0b3;
+    height: 7vw;
+    position: absolute;
+    width: 100%;
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(50, 50, 50, 0.3);
+    font-family: Verdana, Arial, helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: #e1e1e1;
+
+}
+
+#Header-logo {
+    position: relative;
+    margin-left: 39%;
+    margin-right: 39%;
+    margin-top: 2%;
+}
+
+#logo {
+    text-align: center;
+    font-size: 2vw;
+}
+
+#info {
+    font-size: 1.4vw;
+}
+
+#Header-info {
+    position: relative;
+    margin-top: -3%;
+    margin-left: 25%;
+    margin-right: 70%;
+}
+
+
+#elev {
+    font-size: 1.4vw;
+}
+
+#Header-elev {
+    position: relative;
+    margin-top: -3%;
+    margin-left: 71.3%;
+    margin-right: 25%;
+}
+
+#kontakt-bar {
+    position: fixed;
+    width: 11%;
+    height: 25vw;
+    background-color: #4ba0b3;
+    margin-top: 15%;
+    margin-left: 89%;
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(50, 50, 50, 0.3);
+    font-family: sans-serif, "Courier New", courier, monospace;
+    font-weight: bold;
+}
+
+#bar-kontakt {
+    position: relative;
+    color: #e1e1e1;
+    margin-left: 4%;
+}
+
+#kontakt {
+    text-align: center;
+    font-size: 1.3vw;
+}
+
+
+#bar-reception {
+    position: relative;
+    color: #e1e1e1;
+    margin-left: 4%;
+
+}
+
+#reception {
+    text-align: center;
+    font-size: 0.9vw;
+}
+
+#bar-rektor {
+    position: relative;
+    color: #e1e1e1;
+    margin-left: 4%;
+
+}
+
+#rektor {
+    text-align: center;
+    font-size: 0.9vw;
+}
+#bar-rektor2 {
+    position: relative;
+    color: #e1e1e1;
+    margin-left: 4%;
+
+}
+
+#rektor2 {
+    text-align: center;
+    font-size: 0.9vw;
+}
+#bar-sjuksyster {
+    position: relative;
+    color: #e1e1e1;
+    margin-left: 4%;
+}
+
+
+#sjuksyster {
+    text-align: center;
+    font-size: 0.9vw;
+}
+#bar-kommun {
+    position: relative;
+    color: #e1e1e1;
+    margin-left: 4%;
+}
+
+
+#kommun {
+    text-align: center;
+    font-size: 0.9vw;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: rgb(225, 225, 225);
+}
+
+a:hover {
+    color: black;
+}
+
+
