@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+   <link rel="stylesheet" type="text/css" href="style.css"/>
+  <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"/>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+
+  <script>
+  $(document).ready(function() {
+    $("#datepicker").datepicker();
+  });
+  </script>
+</head>
+<body>
+<div id="Header">
+    <div id="Header-logo">
+        <a href="index.html">
+            <h1 id="logo">
+                TUNGELSTA SKOLA
+            </h1>
+        </a>
+    </div>
+    <div ID="Header-info">
+        <a href="info.html">
+            <h2 id="info">
+                INFO
+            </h2>
+        </a>
+    </div>
+    <div ID="Header-elev">
+        <a href="elev.html">
+            <h2 id="elev">
+                ELEV
+            </h2>
+        </a>
+    </div>
+</div>
+
+<div>
+    <form action="bokningavklarad.html" method="GET">
+        <div id="boka-bord-container1">
+            <input id="Namn-box" type="text" name="Namn" placeholder="Förnamn"><br>
+        </div>
+        <div id="boka-bord-container2">
+            <input id="tid-box" type="text" name="Tid" placeholder="t.ex. 14:02"><br>
+        </div>
+        <div id="boka-bord-container3">
+            <input id="boka-bord-submit" type="submit" value="BOKA">
+        </div>
+        <div id="calendar">
+            <input id="datepicker" type="text" name="datum" placeholder="Tryck för datum" />
+        </div>
+    </form>
+</div>
+
+<p id="testa-bokning">
+    Nedanför så kan du boka din gratis prova-på-dag hos oss! Allt vi behöver är ett namn,
+    tid för ankomst och ett datum för det.
+</p>
