@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title></title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 </head>
 <body>
 <div id="Header">
@@ -62,5 +63,27 @@
         </p>
     </div>
 </div>
+<div id="bilder-index">
+<div class="start-bild">
+  <img src="../PSD/fixed-skola1.png" />
+</div>
+
+<div class="bilder">
+   <img src="../PSD/fixed-skola2.png" />
+   <img src="../PSD/fixed-skola3.png" />
+    <img src="../PSD/fixed-skola4.png" />
+</div>
+</div>
+<script>
+    $('.bilder img').click(function() {
+    var bild = this;
+    var src = this.src;
+    $('.start-bild img').fadeOut(400,function(){
+        bild.src = this.src;
+        $(this).fadeIn(400)[0].src = src;
+    });
+});
+</script>
+
 </body>
 </html>
