@@ -312,6 +312,14 @@ body {
     color: #4ba0b3;
 }
 
+
+#elev-medelanden {
+    color: #000000;
+    height: 30%;
+    width: 30%;
+    position: absolute;
+}
+
 a {
     text-decoration: none;
     color: rgb(225, 225, 225);
