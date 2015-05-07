@@ -313,12 +313,48 @@ body {
 }
 
 
-#elev-medelanden {
-    color: #000000;
-    height: 30%;
-    width: 30%;
+#elev-larare {
     position: absolute;
+    height: 35vw;
+    width: 25%;
+    background-color: #4ba0b3;
+    margin-left: 6%;
+    margin-top: 10%;
+    margin-bottom: 4%;
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(50, 50, 50, 0.3);
+    font-family: sans-serif, "Courier New", courier, monospace;
+    font-weight: bold;
 }
+
+#elev-larare-medelanden {
+    position: relative;
+    text-align: center;
+    font-size: 1.2vw;
+    color: #e1e1e1;
+    margin-top: 5%;
+}
+
+#elev-larare-lorem {
+    position: relative;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 1vw;
+    color: #e1e1e1;
+}
+
+.elev-lankar-class {
+    color: #4ba0b3;
+    font-family: sans-serif, "Courier New", courier, monospace;
+    font-weight: bold;
+}
+
+#elev-lankar {
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 20%;
+}
+
 
 a {
     text-decoration: none;
@@ -326,7 +362,7 @@ a {
 }
 
 
-a:hover, #testa-elev-bokning:hover, #boka-bord-submit:hover, #bokning-info:hover {
+a:hover, #testa-elev-bokning:hover, #boka-bord-submit:hover, #bokning-info:hover, .elev-lankar-class:hover {
     color: black;
 }
 
