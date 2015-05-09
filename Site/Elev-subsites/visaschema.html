@@ -3,27 +3,27 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title></title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 </head>
 <body>
 <div id="Header">
     <div id="Header-logo">
-        <a href="index.html">
+        <a href="../index.html">
             <h1 id="logo">
                 TUNGELSTA SKOLA
             </h1>
         </a>
     </div>
     <div ID="Header-info">
-        <a href="info.html">
+        <a href="../info.html">
             <h2 id="info">
                 INFO
             </h2>
         </a>
     </div>
     <div ID="Header-elev">
-        <a href="elev.html">
+        <a href="../elev.html">
             <h2 id="elev">
                 ELEV
             </h2>
@@ -31,11 +31,8 @@
     </div>
 </div>
 
-<a href="index.html">
-    <p id="bokning-info">Tryck här för att komma tillbaks till våran startsida</p>
-</a>
+<div id="schema-bild">
 
-<div id="bokning-text1">
 <script>
 function getParameterByName(name) {
     name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
@@ -44,9 +41,13 @@ function getParameterByName(name) {
     return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
 }
 
-var prodId = getParameterByName('Namn');
-var prodId2 = getParameterByName('Tid')
-var prodId3 = getParameterByName('datum')
-document.write('<p>Tack för din bokning' + ' ' + prodId + ', du har nu tid' + ' ' + prodId2 + ' ' + '-' + ' ' + prodId3 );
+var prodId = getParameterByName('schema');
+
+function visabild() {
+    if (prodId = '12_Tek_A')
+       document.write("<img src='../../PSD/schema-12_tek_a.png'>");
+    else if (prodId = '12_Tek_B')
+       document.write("<img src='../../PSD/schema-12_tek_b.png'>");
+}
 </script>
 </div>
