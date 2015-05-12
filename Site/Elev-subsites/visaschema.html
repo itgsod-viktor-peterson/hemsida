@@ -41,13 +41,20 @@ function getParameterByName(name) {
     return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
 }
 
-var prodId = getParameterByName('schema');
+var prodId;
 
-function visabild() {
-    if (prodId = '12_Tek_A')
-       document.write("<img src='../../PSD/schema-12_tek_a.png'>");
-    else if (prodId = '12_Tek_B')
-       document.write("<img src='../../PSD/schema-12_tek_b.png'>");
+
+
+function visabild(){
+    prodId = getParameterByName('schema');
+    if (prodId == "12_Tek_A"){
+       document.write("<img src='../../PSD/schema-12_tek_a.png'>");}
+    else if (prodId == "12_Tek_B"){
+       document.write("<img src='../../PSD/schema-12_tek_b.png'>");}
+    else{
+        document.write('<p>klassen finns inte, försök igen!');}
 }
+
+visabild()
 </script>
 </div>
